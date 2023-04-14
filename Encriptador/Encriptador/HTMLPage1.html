@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Encriptador de Texto</h1>
+      <div class="input-group">
+        <label for="original-text">Texto Original:</label>
+        <textarea id="original-text" placeholder="Escribe aquí tu mensaje..."></textarea>
+      </div>
+      <div class="input-group">
+        <label for="shift">Clave de Encriptación:</label>
+        <input type="number" id="shift" placeholder="Ingresa un número entre 1 y 26">
+      </div>
+      <button id="encrypt-btn">Encriptar</button>
+      <button id="decrypt-btn">Desencriptar</button>
+      <div class="input-group">
+        <label for="encrypted-text">Texto Encriptado:</label>
+        <textarea id="encrypted-text" placeholder="Tu mensaje encriptado aparecerá aquí..."></textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
